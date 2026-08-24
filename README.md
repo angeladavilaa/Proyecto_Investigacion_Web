@@ -84,9 +84,10 @@ proyecto-investigacion-web/
 - [ ] Mi grupo usó la plantilla de `template/` sin romper su estructura
 - [ ] El contenido cubre las 5 etapas del método científico en el formato elegido (entrevista o artículo científico)
 - [ ] El texto es fluido y profesional — no es una lista de datos sin desarrollar ni un reporte copiado y pegado
-- [ ] Cada integrante tiene al menos un commit propio
+- [ ] Cada integrante tiene al menos un commit propio (o su nombre está claramente comentado en el HTML)
 - [ ] Revisé `docs/guia-html-css.md` y no usé etiquetas o técnicas fuera de lo permitido
 - [ ] El Pull Request está abierto con el nombre correcto
+
 
 
 
