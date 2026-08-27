@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    REVISTA DE INVESTIGACIÓN — Hoja de estilos base
    No eliminen las variables de :root ni las clases
    .revista__  /  .entrevista__  /  .etapa  /  .articulo__  /  .seccion
@@ -453,4 +453,135 @@ footer {
     font-size: 0.75em;
     color: #555555;
   }
+}
+
+/* ============================================================
+   PERSONALIZACIÓN DEL GRUPO
+   Paleta y tipografías seleccionadas para el artículo de IA
+   ============================================================ */
+
+:root {
+  /* Paleta seleccionada */
+  --color-fondo: #E6EEC9;
+  --color-papel: #FFFFFF;
+  --color-tinta: #263536;
+  --color-tinta-suave: #5D6F68;
+
+  --color-acento: #C2D099;
+  --color-acento-texto: #52735E;
+  --color-acento-2: #35858E;
+
+  --color-linea: #C2D099;
+  --color-regla: #35858E;
+
+  /* Tipografías seleccionadas */
+  --fuente-titulo: 'Abril Fatface', Georgia, serif;
+  --fuente-texto: 'Josefin Sans', Arial, sans-serif;
+  --fuente-meta: 'Josefin Sans', Arial, sans-serif;
+}
+
+
+/* Papel del artículo */
+
+main {
+  background-color: var(--color-papel);
+}
+
+
+/* Cabecera */
+
+.revista__header {
+  background-color: var(--color-papel);
+}
+
+.revista__eyebrow {
+  color: #35858E;
+  font-weight: 700;
+}
+
+.revista__titulo {
+  color: #35858E;
+}
+
+.revista__subtitulo {
+  color: #52735E;
+}
+
+.revista__meta {
+  color: #5D6F68;
+}
+
+
+/* Artículo */
+
+.articulo__titulo {
+  color: #35858E;
+}
+
+.articulo__autores {
+  color: #52735E;
+}
+
+
+/* Resumen */
+
+.articulo__resumen {
+  border-left-color: #7DA78C;
+  background-color: rgba(230, 238, 201, 0.35);
+}
+
+.articulo__resumen-titulo {
+  color: #35858E;
+  font-weight: 700;
+}
+
+
+/* Secciones */
+
+.seccion__titulo {
+  color: #35858E;
+}
+
+.seccion {
+  border-top-color: #C2D099;
+}
+
+
+/* Primera letra del artículo */
+
+.articulo__cuerpo .seccion:first-of-type
+.seccion__texto::first-letter {
+  color: #35858E;
+}
+
+
+/* Cita destacada */
+
+.destacado {
+  border-top-color: #7DA78C;
+  border-bottom-color: #7DA78C;
+  color: #35858E;
+  background-color: rgba(194, 208, 153, 0.18);
+}
+
+
+/* Referencias */
+
+.referencias {
+  color: #5D6F68;
+}
+
+
+/* Enlaces */
+
+a {
+  color: #35858E;
+}
+
+
+/* Selección de texto */
+
+::selection {
+  background-color: #C2D099;
+  color: #263536;
 }
